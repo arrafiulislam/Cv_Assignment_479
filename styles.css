@@ -1,0 +1,182 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background: rgb(143, 194, 241);
+    margin: 10px 0;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.sidebar {
+    width: 35%;
+    background: #3b9fdd;
+    color: #fff;
+    padding: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.profile h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.about-heading{
+    font-size: 16px;
+    padding:  10px;
+}
+.about-me{
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.contact-info p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.contact-info p i {
+    margin-right: 10px;
+}
+
+.skills h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.skills ul li span.bar {
+    display: block;
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.skills ul li span.filled {
+    display: block;
+    height: 5px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+
+.main-content {
+    width: 65%;
+    padding: 20px;
+}
+
+.main-content h2 {
+    font-size: 20px;
+    color: #3b9fdd;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.main-content .job, .main-content .school {
+    margin-bottom: 20px;
+}
+
+.main-content .job h3, .main-content .school h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.main-content .job h3, .main-content .school h4 {
+    margin-bottom: 10px;
+}
+
+.main-content .job span, .main-content .school span {
+    font-size: 14px;
+    color: #999;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.main-content .job p, .main-content .school p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+.main-content .job h3, .main-content .projects h4 {
+    margin-bottom: 10px;
+}
+.main-content .job h3, .main-content .projects p {
+    margin-bottom: 10px;
+}
+
+.interests h2 {
+    font-size: 20px;
+    color: #3b9fdd;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+}
+
+.interests ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interests ul li {
+    font-size: 14px;
+    color: #666;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.interests ul li i {
+    margin-right: 5px;
+}
